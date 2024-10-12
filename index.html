@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Minifigure</title>
+</head>
+<body>
+
+  <div class="minifigure">
+
+    <div class="headwear">
+      <div class="hat"></div>
+      <div class="hair">
+        <div class="strand strand1"></div>
+        <div class="strand strand2"></div>
+        <div class="strand strand3"></div>
+        <div class="strand strand4"></div>
+        <div class="strand strand5"></div>
+        <div class="strand strand6"></div>
+        <div class="strand strand7"></div>
+        <div class="strand strand8"></div>
+        <div class="strand strand9"></div>
+        <div class="strand strand10"></div>
+        <div class="strand strand11"></div>
+        <div class="strand strand12"></div>
+        <div class="strand strand13"></div>
+        <div class="strand strand14"></div>
+        <div class="strand strand15"></div>
+        <div class="strand strand16"></div>
+        <div class="strand strand17"></div>
+        <div class="strand strand18"></div>
+        <div class="strand strand19"></div>
+        <div class="strand strand20"></div>
+        <div class="strand strand21"></div>
+        <div class="strand strand22"></div>
+        <div class="strand strand23"></div>
+        <div class="strand strand24"></div>
+        <div class="strand strand25"></div>
+        <div class="strand strand26"></div>
+        <div class="strand strand27"></div>
+        <div class="strand strand28"></div>
+        <div class="strand strand29"></div>
+        <div class="strand strand30"></div>
+        <div class="strand strand31"></div>
+        <div class="strand strand32"></div>
+        <div class="strand strand33"></div>
+        <div class="strand strand34"></div>
+        <div class="strand strand35"></div>
+        <div class="strand strand36"></div>
+        <div class="strand strand37"></div>
+        <div class="strand strand38"></div>
+        <div class="strand strand39"></div>
+        <div class="strand strand40"></div>
+        <div class="strand strand41"></div>
+        <div class="strand strand42"></div>
+        <div class="strand strand43"></div>
+        <div class="strand strand44"></div>
+        <div class="strand strand45"></div>
+        <div class="strand strand46"></div>
+        <div class="strand strand47"></div>
+        <div class="strand strand48"></div>
+        <div class="strand strand49"></div>
+        <div class="strand strand50"></div>
+        <div class="strand strand51"></div>
+        <div class="strand strand52"></div>
+        <div class="strand strand53"></div>
+        <div class="strand strand54"></div>
+        <div class="strand strand55"></div>
+        <div class="strand strand56"></div>
+        <div class="strand strand57"></div>
+        <div class="strand strand58"></div>
+        <div class="strand strand59"></div>
+        <div class="strand strand60"></div>
+      </div>
+    </div>
+
+    <div class="head">
+      <div class="hat"></div>
+      <div class="faces-wrap">
+        <div class="faces">
+          <div class="face classic">
+            <div class="eye right"></div>
+            <div class="eye left"></div>
+            <div class="mouth"></div>
+          </div>
+
+          <div class="face smile">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+
+          <div class="face large-smile">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+
+          <div class="face worried">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+
+          <div class="face frown">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+
+          <div class="face surprised">
+            <div class="eye right">
+              <div class="brow"></div>
+            </div>
+            <div class="eye left">
+              <div class="brow"></div>
+            </div>
+            <div class="mouth"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="upper-body">
+      <div class="torso"></div>
+      <div class="arm right">
+        <div class="hand right"></div>
+      </div>
+      <div class="arm left">
+        <div class="hand left"></div>
+      </div>
+    </div>
+    <div class="lower-body">
+      <div class="waist"></div>
+      <div class="crotch"></div>
+      <div class="leg right"></div>
+      <div class="leg left"></div>
+    </div>
+  </div>
+    
+  <div class="controls">
+    <h2 class="title">Controls</h2>
+    
+    <button class="button explode">Explode</button>
+    <button class="button randomize">Randomize</button>
+
+    <fieldset class="headwear-control">
+      <legend>Headwear</legend>
+      
+      <div class="form-element">
+        <label for="headwear">Headwear</label>
+        <input id="headwear" class="headwear-range" name="headwear" type="range" min="0" max="200" step="100" value="0">
+      </div>
+      
+      <div class="hat-color-controls" style="display: none;">
+        <div class="form-element">
+          <label for="hat-hue">Hat Hue</label>
+          <input id="hat-hue" class="color-range hat-hue" name="hat-hue" type="range" min="0" max="360" value="30">
+        </div>
+        <div class="form-element">
+          <label for="hat-saturation">Hat Saturation</label>
+          <input id="hat-saturation" class="color-range hat-saturation" name="hat-saturation" type="range" min="0" max="100" value="70">
+        </div>
+        <div class="form-element">
+          <label for="hat-lightness">Hat Lightness</label>
+          <input id="hat-lightness" class="color-range hat-lightness" name="hat-lightness" type="range" min="0" max="50" value="50">
+        </div>
+        <div class="form-element">
+          <label for="hat-before-hue">Hat Bottom Hue</label>
+          <input id="hat-before-hue" class="color-range hat-before-hue" name="hat-before-hue" type="range" min="0" max="360" value="30">
+        </div>
+        <div class="form-element">
+          <label for="hat-before-saturation">Hat Bottom Saturation</label>
+          <input id="hat-before-saturation" class="color-range hat-before-saturation" name="hat-before-saturation" type="range" min="0" max="100" value="70">
+        </div>
+        <div class="form-element">
+          <label for="hat-before-lightness">Hat Bottom Lightness</label>
+          <input id="hat-before-lightness" class="color-range hat-before-lightness" name="hat-before-lightness" type="range" min="0" max="50" value="50">
+        </div>
+      </div>
+    </fieldset>
+    
+    <fieldset class="head-expression">
+      <legend>Head</legend>
+      
+      <div class="form-element">
+        <label for="expression">Expression</label>
+        <input id="expression" class="expression-range expression" name="expression" type="range" min="0" max="500" step="100" value="0">
+      </div>
+    </fieldset>
+    
+    <fieldset class="upper-color">
+      <legend>Upper Body</legend>
+      
+      <div class="form-element">
+        <label for="upper-hue">Hue</label>
+        <input id="upper-hue" class="color-range upper-hue" name="upper-hue" type="range" min="0" max="360" value="200">
+      </div>
+      
+      <div class="form-element">
+        <label for="upper-saturation">Saturation</label>
+        <input id="upper-saturation" class="color-range upper-saturation" name="upper-saturation" type="range" min="0" max="100" value="0">
+      </div>
+      
+      <div class="form-element">
+        <label for="upper-lightness">Lightness</label>
+        <input id="upper-lightness" class="color-range upper-lightness" name="upper-lightness" type="range" min="0" max="90" value="90">
+      </div>
+    </fieldset>
+    
+    <fieldset class="lower-color">
+      <legend>Lower Body</legend>
+      
+      <div class="form-element">
+        <label for="lower-hue">Hue</label>
+        <input id="lower-hue" class="color-range lower-hue" name="lower-hue" type="range" min="0" max="360" value="200">
+      </div>
+      
+      <div class="form-element">
+        <label for="lower-saturation">Saturation</label>
+        <input id="lower-saturation" class="color-range lower-saturation" name="lower-saturation" type="range" min="0" max="100" value="0">
+      </div>
+      
+      <div class="form-element">
+        <label for="lower-lightness">Lightness</label>
+        <input id="lower-lightness" class="color-range lower-lightness" name="lower-lightness" type="range" min="0" max="90" value="90">
+      </div>
+    </fieldset>
+
+  </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>
